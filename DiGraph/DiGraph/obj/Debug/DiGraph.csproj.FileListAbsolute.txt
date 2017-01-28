@@ -24,3 +24,33 @@ c:\users\clombardi\documents\visual studio 2015\Projects\DiGraph\DiGraph\bin\Deb
 c:\users\clombardi\documents\visual studio 2015\Projects\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.xml
 c:\users\clombardi\documents\visual studio 2015\Projects\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.Abstractions.pdb
 c:\users\clombardi\documents\visual studio 2015\Projects\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.Abstractions.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\DiGraph.exe.config
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\obj\Debug\DiGraph.exe
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\obj\Debug\DiGraph.pdb
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\obj\Debug\DiGraph.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\DiGraph.exe
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\DiGraph.pdb
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\CypherNet.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\GraphX.PCL.Common.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\GraphX.PCL.Logic.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\GraphX.WPF.Controls.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Neo4j.Driver.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Data.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Graphviz.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Serialization.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.Abstractions.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\StaticReflection.dll
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Neo4j.Driver.pdb
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Neo4j.Driver.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Data.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Graphviz.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\QuickGraph.Serialization.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.pdb
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.xml
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.Abstractions.pdb
+C:\Users\Christopher\Documents\graphTest\DiGraph\DiGraph\bin\Debug\Sockets.Plugin.Abstractions.xml
