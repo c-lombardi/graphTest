@@ -96,14 +96,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Edges\Workflow.cs" />
+    <Compile Include="Edges\Edge.cs" />
     <Compile Include="Graphs\DiGraph.cs" />
     <Compile Include="Nodes\DataSource.cs" />
     <Compile Include="Nodes\Interfaces\IInputNode.cs" />
     <Compile Include="Nodes\Interfaces\IOutputNode.cs" />
+    <Compile Include="Nodes\Interfaces\IWorkflow.cs" />
     <Compile Include="Nodes\IntermediateModel.cs" />
     <Compile Include="Nodes\DomainModel.cs" />
     <Compile Include="Graphs\Interfaces\IHierarchicalGraph.cs" />
+    <Compile Include="Nodes\Workflow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Edges\Interfaces\IEdge.cs" />

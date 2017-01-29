@@ -7,7 +7,11 @@
             get { return base.Data; }
             private set { base.Data = value; }
         }
-        public IInputNode(T data) {
+        public IInputNode()
+        {
+            MaxNumberOfIncomingEdges = 0;
+        }
+        public IInputNode(T data) : this() {
             Data = data;
         }
     }

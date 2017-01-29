@@ -7,5 +7,9 @@
             get { return base.Data; }
             set { base.Data = value; }
         }
+        public IOutputNode()
+        {
+            MaxNumberOfIncomingEdges = 1;
+        }
     }
 }

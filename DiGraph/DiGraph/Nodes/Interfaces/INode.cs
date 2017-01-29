@@ -15,7 +15,7 @@ namespace DiGraph.Nodes.Interfaces
         private T _data;
         protected T Data {
             get { return _data; }
-            set { _data = value; VertexFormatted.Invoke(this, null); }
+            set { _data = value; if (VertexFormatted != null) { VertexFormatted.Invoke(this, null); } }
         }
 
         public event FormatVertexEventHandler<INode<T>> VertexFormatted;
@@ -24,10 +24,6 @@ namespace DiGraph.Nodes.Interfaces
         {
             return $"{Data}";
         }
-
-        internal INode(INode<T> copyNode){
-            Data = copyNode.Data;
-            VertexFormatted.Invoke(this, null);
-        }
+        internal int MaxNumberOfIncomingEdges;
     }
 }

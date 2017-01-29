@@ -1,5 +1,4 @@
-﻿using DiGraph.Edges.Interfaces;
-using DiGraph.Nodes.Interfaces;
+﻿using DiGraph.Nodes.Interfaces;
 
 namespace DiGraph.Nodes
 {
