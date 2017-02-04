@@ -2,7 +2,7 @@
 
 namespace DiGraph.Nodes
 {
-    internal class DomainModel<T> : IOutputNode<T>
+    internal sealed class DomainModel<T> : OutputNode<T>
     {
     }
 }

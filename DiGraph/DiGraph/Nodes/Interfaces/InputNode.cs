@@ -1,17 +1,19 @@
 ﻿namespace DiGraph.Nodes.Interfaces
 {
-    internal abstract class IInputNode<T> : INode<T>
+    internal abstract class InputNode<T> : INode<T>
     {
-        new internal T Data
+        internal new T Data
         {
             get { return base.Data; }
             private set { base.Data = value; }
         }
-        public IInputNode()
+
+        private InputNode()
         {
             MaxNumberOfIncomingEdges = 0;
         }
-        public IInputNode(T data) : this() {
+
+        protected InputNode(T data) : this() {
             Data = data;
         }
     }

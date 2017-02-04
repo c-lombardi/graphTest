@@ -99,8 +99,9 @@
     <Compile Include="Edges\Edge.cs" />
     <Compile Include="Graphs\DiGraph.cs" />
     <Compile Include="Nodes\DataSource.cs" />
-    <Compile Include="Nodes\Interfaces\IInputNode.cs" />
-    <Compile Include="Nodes\Interfaces\IOutputNode.cs" />
+    <Compile Include="Nodes\Interfaces\IINode.cs" />
+    <Compile Include="Nodes\Interfaces\InputNode.cs" />
+    <Compile Include="Nodes\Interfaces\OutputNode.cs" />
     <Compile Include="Nodes\Interfaces\IWorkflow.cs" />
     <Compile Include="Nodes\IntermediateModel.cs" />
     <Compile Include="Nodes\DomainModel.cs" />

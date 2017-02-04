@@ -2,7 +2,7 @@
 
 namespace DiGraph.Nodes
 {
-    internal class DataSource<T> : IInputNode<T>
+    internal sealed class DataSource<T> : InputNode<T>
     {
         public DataSource(T data) : base(data)
         {

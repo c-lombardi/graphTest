@@ -1,13 +1,14 @@
 ﻿namespace DiGraph.Nodes.Interfaces
 {
-    internal abstract class IOutputNode<T> : INode<T>
+    internal abstract class OutputNode<T> : INode<T>
     {
-        new internal T Data
+        internal new T Data
         {
             get { return base.Data; }
             set { base.Data = value; }
         }
-        public IOutputNode()
+
+        protected OutputNode()
         {
             MaxNumberOfIncomingEdges = 1;
         }

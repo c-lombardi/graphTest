@@ -1,13 +1,21 @@
 ﻿using DiGraph.Nodes.Interfaces;
 using System;
+using System.Diagnostics;
 
 namespace DiGraph.Nodes
 {
-    internal class Workflow<T> : IOutputNode<T>
+    internal sealed class Workflow<T> : IWorkflow<T>
     {
-        public T doWork(Func<T, T> modifyWorkflowDataFunc)
+        public override T DoWork(INode<T> sourceNode)
         {
-            return modifyWorkflowDataFunc(Data);
+            IsDirty = false;
+            Data = ModifyDataAndReturnFunc(sourceNode.Data);
+            Trace.WriteLine($"I did work and my result was: {Data} ");
+            return Data;
+        }
+
+        public Workflow(Func<T, T> modifyDataAndReturnFunc) : base(modifyDataAndReturnFunc)
+        {
         }
     }
 }

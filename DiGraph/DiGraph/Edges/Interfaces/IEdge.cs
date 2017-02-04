@@ -9,22 +9,26 @@ namespace DiGraph.Edges.Interfaces
     {
         public event FormatEdgeAction<INode<T>, IEdge<T>> EdgeFormatted;
         
-        internal IEdge(DataSource<T> source, Workflow<T> target, EdgeTypes type) : base(source, target, type)
+        internal IEdge(DataSource<T> source, Workflow<T> target, EdgeTypes type, int id ) : base(source, target, type)
         {
+            Id = id;
         }
 
-        internal IEdge(IntermediateModel<T> source, Workflow<T> target, EdgeTypes type) : base(source, target, type)
+        internal IEdge(IntermediateModel<T> source, Workflow<T> target, EdgeTypes type, int id ) : base(source, target, type)
         {
+            Id = id;
         }
 
-        internal IEdge(Workflow<T> source, IntermediateModel<T> target, EdgeTypes type) : base(source, target, type)
+        internal IEdge(Workflow<T> source, IntermediateModel<T> target, EdgeTypes type, int id ) : base(source, target, type)
         {
+            Id = id;
         }
 
-        internal IEdge(Workflow<T> source, DomainModel<T> target, EdgeTypes type) : base(source, target, type)
+        internal IEdge(Workflow<T> source, DomainModel<T> target, EdgeTypes type, int id ) : base(source, target, type)
         {
+            Id = id;
         }
-        
+
         public override string ToString()
         {
             return $"I connected {Source.ID} to {Target.ID}";
@@ -37,6 +41,7 @@ namespace DiGraph.Edges.Interfaces
             set { _description = value; EdgeFormatted.Invoke(this, null); }
         }
 
+        internal int Id { get; private set; }
 
     }
 }

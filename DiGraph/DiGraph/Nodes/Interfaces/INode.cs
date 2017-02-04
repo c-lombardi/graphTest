@@ -3,27 +3,44 @@ using QuickGraph.Graphviz;
 
 namespace DiGraph.Nodes.Interfaces
 {
-    internal abstract class INode<T> : VertexBase
+    internal abstract class INode<T> : VertexBase, IINode<T>
     {
+        //properties
         private string _description;
-        internal virtual string Description
+        internal string Description
         {
             get { return _description; }
             set { _description = value; VertexFormatted.Invoke(this, null); }
         }
 
         private T _data;
-        protected T Data {
+        internal T Data
+        {
             get { return _data; }
             set { _data = value; if (VertexFormatted != null) { VertexFormatted.Invoke(this, null); } }
         }
 
+        private bool _isDirty;
+        internal bool IsDirty
+        {
+            get { return _isDirty; }
+            set { _isDirty = value; VertexFormatted.Invoke(this, null); }
+        }
+
+        //static
+        internal int MaxNumberOfIncomingEdges;
+
+        //Methods
         public event FormatVertexEventHandler<INode<T>> VertexFormatted;
 
         public override string ToString()
         {
             return $"{Data}";
         }
-        internal int MaxNumberOfIncomingEdges;
+
+        protected INode()
+        {
+            _isDirty = true;
+        }
     }
 }
